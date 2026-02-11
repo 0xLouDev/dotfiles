@@ -1,0 +1,90 @@
+#window{
+	border-radius: 8px;
+
+	border-style: solid;
+	border-width: 4px;
+	border-color: #cb6aff;
+	
+	background-color: rgba(57, 48, 74, 1);
+	
+	color:white;
+}
+
+
+
+#input {
+	margin:24px 20px 20px 20px;
+	padding: 12px;
+	padding-left: 32px;
+	outline:none;
+
+	border-radius: 8px;
+	border-width: 4px;
+	border-color: #cb6aff;
+	background-color: rgba(47, 48, 74, 0.95);
+	
+	box-shadow: none;
+
+	border-image-slice:1;
+	/* border-image-source: linear-gradient(45deg, #ff8316, #fb11ff); */
+	/* border-image-source: linear-gradient(to left, rgba(0x02, 0xBE, 0xCF, 1), rgba(0x03, 0xcd, 0xa4, 1)); */	
+	background:linear-gradient(to right, rgba(0xfb, 0xaa, 0xe0, 0.25), rgba(0xa3, 0x4e, 0xab, 0.25));
+	
+	font-size: 20px;
+	font-family: "JetBrainsMono Nerd Font";
+	color:white;
+}
+
+#img {
+	border-radius: 12px;
+	padding:4px;
+}
+
+#img:selected {
+	background: rgba(57, 48, 74, 1);
+	/* height:128px; */
+}
+
+#entry {
+	margin-top:0px;
+	margin-bottom:8px;
+	margin-left: 12px;
+	margin-right: 12px;
+	
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+
+	border-radius: 4px;
+	border-width: 4px;
+	border-style: solid;
+	border-color: transparent;
+	
+	font-size:18px;
+	font-family: "JetBrainsMono Nerd Font";
+}
+#text {
+	margin-left:12px;
+}
+#entry:selected {
+
+	background:linear-gradient(to left, rgba(0xfb, 0xaa, 0xe0, 0.25), rgba(0xa3, 0x4e, 0xab, 0.25));
+
+	border-width: 4px;
+	border-style: solid;
+	border-color: #cb6aff;
+	outline:none;
+	color:white;
+}
+#entry label {
+	background-color:transparent;
+	color:white;
+}
+
+#expander-box {
+	margin-top: 8px;
+	border-radius: 12px;
+
+	background-color: rgba(255, 255, 255, 0.1);
+}
